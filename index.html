@@ -14,7 +14,8 @@
   <div class="content">
     <script>
       const today = new Date();
-      document.write("<p>今日は、" + today.getDate() + "日です</p>");
+      const todayHTML = today.getFullYear() + "/" + (today.getMonth() + 1) + "/" + today.getDate();
+      document.write(todayHTML);
     </script>
   </div>
 </body>
